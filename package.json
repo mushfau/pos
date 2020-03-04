@@ -1,5 +1,5 @@
 {
-  "name": "easy-pos",
+  "name": "pos",
   "version": "1.0",
   "main": "app.js",
   "repository": "git@github.com:mushfau/pos.git",
@@ -17,7 +17,7 @@
     "dist": "electron-builder --x64 --win -p always"
   },
   "build": {
-    "appId": "mushfau.pos",
+    "appId": "com.mushfau.pos",
     "win": {
       "publish": [
         "github"

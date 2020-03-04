@@ -1,9 +1,9 @@
-const { app, BrowserWindow, autoUpdater } = require('electron')
-// require('update-electron-app')({
-//   repo: 'github-user/repo',
-//   updateInterval: '5 minute',
-//   logger: require('electron-log')
-// })
+const { app, BrowserWindow} = require('electron')
+require('update-electron-app')({
+  repo: 'mushfau/pos',
+  updateInterval: '5 minute',
+  logger: require('electron-log')
+})
 
 function createWindow() {
   // Create the browser window.
